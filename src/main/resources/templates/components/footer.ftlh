@@ -8,7 +8,7 @@
           <div class="">CSS</div>
           <div class="">JavaScript</div>
           <div class="">React</div>
-          <div class="">UX/UI</div>
+          <div class="">Vue</div>
         </div>
         <div class="ml-12">
           <div class="font-bold">About:</div>
