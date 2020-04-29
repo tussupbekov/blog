@@ -1,0 +1,17 @@
+server:
+    port: 8080
+spring:
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+    datasource:
+        username: postgres
+        password: psqladmin
+        url: jdbc:postgresql://localhost:5432/blog
+        driver-class-name: org.postgresql.Driver
+    session:
+        jdbc:
+            initialize-schema: always
